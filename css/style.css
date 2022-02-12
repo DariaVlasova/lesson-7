@@ -1,0 +1,234 @@
+
+@import "null.css";
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/fonts/CircularStd-Bold.woff2')
+    format('woff2');
+     font-display: swap;  
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/fonts/CircularStd-Book.woff2')
+    format('woff2');
+     font-display: swap;  
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/fonts/CircularStd-BookItalic.woff2')
+    format('woff2');
+     font-display: swap;  
+    font-weight: 400;
+    font-style: italic;
+}
+.info{
+    display: block;
+    margin: 0px auto;
+    max-width: 1025px;
+    margin-top: 50px;
+    background: rgba(0, 255, 255, 0.212);
+    
+}
+p{
+    font-family: 'Circular Std';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.428;
+    color:rgb(123, 224, 203); 
+    text-align: justify;
+    margin-bottom: 24px;
+    
+}
+h2,
+a{
+   font-family: 'Circular Std';
+   font-size: 24px;
+   font-weight: 700; 
+   line-height: 1.1;
+   color: black;
+   text-align: center;
+   margin-bottom: 50px;
+   text-transform: uppercase;
+}
+.signature{
+    font-family: 'Circular Std';
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.428;
+    color: #333; 
+    text-align: center;
+    margin-bottom: 45px;
+}
+.size{
+    max-width: 1025px;
+    border: 3px double  rgb(201, 178, 77) ;
+    padding: 170px;
+    
+}
+.first_e{
+    background-image: url("../img/1.jpg");
+    background-repeat: round ;
+    
+}
+.second_e{
+    background-position: center ;
+    background-image: url("../img/9.jpg");
+    background-color:rgb(56, 39, 13) ; 
+    background-repeat: no-repeat;
+}
+.third {
+    background: url("../img/1.png") 0 0 repeat-y, url("../img/1.jfif") no-repeat 99% 99%;
+    background-color: rgb(56, 39, 13);
+}
+.forth{
+    background-image: url("../img/3.jpg"); 
+    background-position: 10% 20%;
+    background-color: rgb(56, 39, 13);
+    background-repeat: no-repeat;
+}
+.fifth{
+    background-image: url("../img/4.jpg"); 
+    background-position: 91% 92%;
+    background-color: rgb(56, 39, 13);
+    background-repeat: no-repeat;
+    background-size:300px auto ;
+}
+.sixth{
+    background-image: url("../img/5.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.seventh{
+    background-image: url("../img/6.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-color: rgb(56, 39, 13);
+}
+.eighth{
+    background-image: url("../img/7.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.ninth{
+    background-image: url("../img/2.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:scroll;
+    
+}
+.teenth{
+    background: url("../img/13.jpg") 0 0 no-repeat, url("../img/10.jpg") 99% 99% no-repeat;
+    background-color: rgb(56, 39, 13);
+}
+.eleventh{
+    display: block;
+    margin: 0px auto;
+    padding: 0 50px 0 50px;
+    background-color: rgba(63, 23, 5, 0.397);
+
+}
+h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;  
+    color: #1E212C;
+}
+.first{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%; 
+    color: #1E212C;
+}
+.second{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.62;
+color: #424551;
+}
+.info_1{
+    display: block;
+    margin: 0px auto;
+    max-width: 810px;
+    margin-top: 50px;
+}
+li{
+    margin-bottom: 4px;
+    padding-left: 32px;
+    background: url("../img/check.svg")0 50% no-repeat;
+
+}
+.margin{
+    margin-top: 48px;
+    margin-bottom: 48px ;
+    background: url("../img/braces.png")0 10% no-repeat; 
+    padding-left: 58px;
+}
+.top{
+    margin-top: 24px;
+
+}
+.picture{
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.calendar{
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.62%;
+color: #787A80;
+background: url("../img/Calendar.png")left 90% no-repeat; 
+padding-left: 24px;
+padding-bottom: 10px;
+padding-top: 26px;
+margin-top: 26px;
+display: inline-block;
+}
+.time{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.62%;
+    color: #787A80;
+    background: url("../img/Clock.png")24px 90% no-repeat; 
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 26px;
+    margin-top: 26px; 
+    display: inline-block;
+}
+
+h1{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;  
+    color: #1E212C;
+    
+    margin-top: 55px;
+}
+.inline{
+    display: inline-block;
+}
+.margin_big{
+    margin-bottom: 34px;
+}
